@@ -89,7 +89,8 @@ public class DrawFadingEdgeView extends View {
 
             paint = new Paint();
             matrix = new Matrix();
-            shader = new LinearGradient(0, 0, 0, 1, 0xFF000000, 0, Shader.TileMode.CLAMP);
+            shader = new LinearGradient(0, 0, 0, 1, Color.BLACK, Color.TRANSPARENT,
+                    Shader.TileMode.CLAMP);
             paint.setShader(shader);
             paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DST_OUT));
         }

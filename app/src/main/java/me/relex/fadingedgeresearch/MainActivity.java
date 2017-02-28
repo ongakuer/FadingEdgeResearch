@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import me.relex.fadingedgeresearch.base.FragmentContainerActivity;
 import me.relex.fadingedgeresearch.sample.CustomViewFragment;
+import me.relex.fadingedgeresearch.sample.DrawCircularFadingFragment;
 import me.relex.fadingedgeresearch.sample.DrawFadingEdgeFragment;
 import me.relex.fadingedgeresearch.sample.RecyclerViewFragment;
 
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         list.add(new SampleInfo(getString(R.string.sample_custom_view), CustomViewFragment.class));
         list.add(new SampleInfo(getString(R.string.sample_draw_fading_edge),
                 DrawFadingEdgeFragment.class));
+        list.add(new SampleInfo(getString(R.string.sample_draw_circular_fading),
+                DrawCircularFadingFragment.class));
 
         return list;
     }

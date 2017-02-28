@@ -3,5 +3,6 @@
 
     <string name="sample_recycler_view">RecyclerView</string>
     <string name="sample_custom_view">Custom View</string>
-    <string name="sample_draw_fading_edge">Draw fading edge</string>
+    <string name="sample_draw_fading_edge">Draw Fading Edge</string>
+    <string name="sample_draw_circular_fading">Draw Circular Fading</string>
 </resources>
